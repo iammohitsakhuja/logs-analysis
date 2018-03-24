@@ -10,6 +10,11 @@ This repository contains Python source code that implements an internal reportin
 - Who are the most popular article authors of all time?
 - On which days did more than 1% of requests lead to errors?
 
+## Repo Contents
+
+- `analysis.py` contains the actual program that runs on the database.
+- `database.py` contains the Database class that is used to connect and query the database.
+
 ## Requirements
 
 - [Python interpreter](https://www.python.org/downloads/release/python-364/)
@@ -77,7 +82,7 @@ This repository contains Python source code that implements an internal reportin
     python3 analysis.py
     ```
 
-    You should see the output of the same form as that in the `output.txt` file of this repository.
+    You should see the output of the same form as that in the `log-output.txt` file of this repository.
 
 ### Contributors
 
