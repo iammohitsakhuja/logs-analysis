@@ -74,7 +74,7 @@ This repository contains Python source code that implements an internal reportin
 9. Now copy the contents of this repository into the `/vagrant` directory, navigate to it and run the program like this:
     ```bash
     cd /vagrant/logs-analysis
-    python3 application.py
+    python3 analysis.py
     ```
 
     You should see the output of the same form as that in the `output.txt` file of this repository.
